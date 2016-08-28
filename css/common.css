@@ -1,0 +1,268 @@
+html,body,ul,li,p{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: green;
+}
+html{
+	font-size: 50px;
+}
+html,body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+.swiper-pagination-bullet-active{
+	opacity: 1;
+	background-color: #000;
+}
+/*第一屏*/
+.page1{
+	position: relative;
+	background-color: #0b2d4c;
+}
+.page1-1{
+	position: absolute;
+	left:0;
+	top:2rem;
+	width: 100%;
+	height: 2.3rem;
+	background: url(../images/page1-1.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #0b2d4c;
+}
+.page1-2{
+	position: absolute;
+	left:0;
+	top:6.8rem;
+	width: 100%;
+	height: 2.2rem;
+	background: url(../images/page1-2.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #0b2d4c;
+}
+/*第二屏*/
+.page2{
+	position: relative;
+	background-color: #fff;
+}
+.page2-1{
+	position: absolute;
+	left:0;
+	top:0.6rem;
+	width: 100%;
+	height: 1.8rem;
+	background: url(../images/page2-1_02.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page2-2{
+	position: absolute;
+	left:2%;
+	top:3.2rem;
+	width: 96%;
+	height: 5rem;
+	background: url(../images/page2-2_05.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page2-3{
+	position: absolute;
+	left:0;
+	top:8rem;
+	width: 100%;
+	height: 3.2rem;
+	background: url(../images/page2-3_15.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page3{
+	position: relative;
+	background-color: #0b2d4c;
+}
+.page3-1{
+	position: absolute;
+	left:0;
+	top:0rem;
+	width: 100%;
+	height: 9.8rem;
+	background: url(../images/page3-1_01.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.page3-2{
+	position: absolute;
+	left:17%;
+	top:3.4rem;
+	width: 66%;
+	height: 2.5rem;
+	background: url(../images/page3_02.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.page3-3{
+	float:left;
+	position: absolute;
+	left:0;
+	top:10.4rem;
+	width: 100%;
+	height: 1.3rem;
+	background: url(../images/page3-3_13.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #0b2d4c;
+}
+.page4{
+	position: relative;
+	background-color: #fff;
+}
+.page4-1{
+	position: absolute;
+	left:3.5%;
+	top:0.4rem;
+	width:30%;
+	height: 6.66rem;
+	background: url(../images/page4-1_03.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page4-2{
+	position: absolute;
+	left:35%;
+	top:0.4rem;
+	width: 30%;
+	height: 6.66rem;
+	background: url(../images/page4-2_03.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page4-3{
+	position: absolute;
+	left:66.5%;
+	right:3.5%;
+	top:0.4rem;
+	width: 30%;
+	height: 6.66rem;
+	background: url(../images/page4-3_03.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page4-4{
+	position: absolute;
+	left:0;
+	top:7rem;
+	width: 100%;
+	height: 1.6rem;
+	background: url(../images/page4-4_05.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page4-5{
+	position: absolute;
+	left:0;
+	top:9.8rem;
+	width: 100%;
+	height: 0.28rem;
+	background: url(../images/page4-5_06.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page5{
+	position: relative;
+	background-color: #fff;
+}
+.page5-1{
+	position: absolute;
+	left:2%;
+	top:0.2rem;
+	width: 96%;
+	height: 6.8rem;
+	background: url(../images/page5-1_03.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.page5-2{
+   position: absolute;
+   z-index: 2;
+   left:20%;
+   top:8rem;
+   width: 60%;
+   height: 2rem;
+   background: url(../images/page5-2_09.png)no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;;
+}
+.page6{
+	position: relative;
+	background-color: #fff;
+}
+.page6-1{
+	position: absolute;
+	left:0;
+	top:1.2rem;
+	width:49%;
+	height: 6.45rem;
+	background: url(../images/page6-1_02.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-color: #fff;
+}
+.page6-2{
+	position: absolute;
+	left:0;
+	top:0rem;
+	width: 100%;
+	height: 5.7rem;
+	background: url(../images/page6-2_01.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	
+}
+.page6-3{
+	position: absolute;
+	left:1.54rem;
+	top:2.65rem;
+	width: 74%;
+	height: 5rem;
+	background: url(../images/page6-3_05.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.page6-4{
+	position: absolute;
+	left:5%;
+	top:8.3rem;
+	width: 90%;
+	height: 2.3rem;
+	background: url(../images/page6-4_25.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	
+}
