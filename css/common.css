@@ -107,7 +107,7 @@ html,body{
 	left:0;
 	top:0rem;
 	width: 100%;
-	height: 9.8rem;
+	height: 6.8rem;
 	background: url(../images/page3-1_01.jpg) no-repeat;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
@@ -126,7 +126,7 @@ html,body{
 	float:left;
 	position: absolute;
 	left:0;
-	top:10.4rem;
+	top:7.4rem;
 	width: 100%;
 	height: 1.3rem;
 	background: url(../images/page3-3_13.png) no-repeat;
@@ -243,7 +243,7 @@ html,body{
 	background: url(../images/page6-2_01.png) no-repeat;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
-	
+
 }
 .page6-3{
 	position: absolute;
@@ -264,5 +264,5 @@ html,body{
 	background: url(../images/page6-4_25.png) no-repeat;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
-	
+
 }
